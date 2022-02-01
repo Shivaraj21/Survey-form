@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3498db;
+  color: #ecf0f1;
+  text-align: center;
+}
+header {
+  font-family: "PT Serif";
+  margin: 100px auto 50px auto;
+  font-size: large;
+}
+.forms {
+  font-family: "Roboto";
+  background-color: #ecf0f1;
+  color: #3498db;
+  width: 500px;
+  margin: auto;
+  border-radius: 3px;
+  box-shadow: 10px 10px 5px #2980b9;
+  padding-top: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-bottom: 30px;
+  text-align: left;
+}
+.form-control,
+.radio-control,
+.comments {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-control input,
+select {
+  width: 400px;
+  border-color: #3498db;
+  border-radius: 3px;
+  padding: 7px;
+  font-size: 1.1rem;
+  color: gray;
+}
+.comments textarea {
+  width: 400px;
+  height: 200px;
+  border-color: #3498db;
+  border-radius: 3px;
+}
+button {
+  width: 400px;
+  padding: 10px;
+  margin-left: 30px;
+  background-color: #1abc9c;
+  color: white;
+  font-size: inherit;
+  border-radius: 3px;
+  border: #ecf0f1;
+}
